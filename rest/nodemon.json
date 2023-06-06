@@ -1,0 +1,12 @@
+{
+	"verbose": true,
+	"execMap": {
+		"js": "node --harmony",
+		"ts": "ts-node"
+	},
+	"watch": ["./src/", "./public/"],
+	"ext": "js,json,ts,html",
+	"env": {
+		"NODE_ENV": "development"
+	}
+}

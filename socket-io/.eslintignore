@@ -1,0 +1,7 @@
+# Здесь могут быть файлы, которые не нужно линтить
+
+/node_modules/**
+/build
+/dist
+.husky
+.vscode
