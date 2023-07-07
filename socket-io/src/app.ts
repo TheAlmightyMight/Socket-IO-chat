@@ -33,6 +33,8 @@ const publicKey = fs.readFileSync(
 	path.resolve(__dirname, '../keys/ECDSApublic.pem'),
 )
 
+//undo
+
 io.use((socket, next) => {
 	if (socket.handshake.headers.cookie) {
 		try {
